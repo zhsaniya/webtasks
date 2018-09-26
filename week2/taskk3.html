@@ -2,102 +2,51 @@
 <head>
 <style>
   .menu a{
-    color:green;
-    padding-left: 10px;
+    color: green;
+    padding-left: 15px;
+  }
+   .item{
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 25px;
+    width: 30%;
+    display:flex;
+    margin: 10px;
+  }
+  .urgent{
+    background-color: yellow;
+    width: 30%;
+    margin: 10px;
 
   }
-   .item {
-      width: 50%;
-      border: 2px solid red;
-      border-radius: 7px;
-      padding-left: 10px;
-      padding-bottom: 8px;
-      display: flex;
-      margin:10px;
+  .text_for{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .city{
+    font-weight: bold;
+  }
+  .price{
+  border: 0px;
+  padding: 3px;
+  border-radius: 7px;
+  background-color:pink;
+  }
+  .title{
+    font-size: 150%;
+  }
+  .description{
+    font-size: 20px;
+    padding: 3px;
+    padding-left: 5px;
 
-    }
-  .item .image{
-      padding-top: 20px;
-      padding-bottom: 8px;
-      width:120px;
-      height:80px;
 
-    }
+  }
+  .image{
+    width: 120px;
+    height: 80px;
+  }
 
-    .item .main_body .title {
-      font-size: 150%;
-
-    }
-    .item .main_body .title .text_for{
-      font-size: 50%;
-      font-weight: bold;
-    }
-    .item .main_body .title .price {
-      background-color: pink;
-      color:green;
-      font-size: 80%;
-      border-radius:10px; 
-      padding:5px;
-
-    }
-    .item .main_body .description {
-      padding-left: 3px;
-      font-size: 110%;
-    }
-    .item .main_body .attributes {
-      padding-left: 3px;
-      font-size: 90%;
-    }
-    .item .main_body .attributes .city {
-      font-weight: bold;
-    }
-
-    .item_urgent{
-      width: 50%;
-      background-color:yellow;
-      border: 2px solid red;
-      border-radius: 7px;
-      padding-left: 10px;
-      padding-bottom: 8px;
-      display: flex;
-      margin: 10px;
-
-    }
-    .item_urgent .image{
-      padding-top: 20px;
-      padding-bottom: 8px;
-      width:120px;
-      height:80px;
-    }
-
-    .item_urgent .main_body .title {
-      font-size: 150%;
-      padding-left:3px;
-
-    }
-    .item_urgent .main_body .title .text_for{
-      font-size: 50%;
-      font-weight: bold;
-    }
-    .item_urgent .main_body .title .price {
-      background-color: pink;
-      color:green;
-      font-size: 80%;
-      border-radius:10px; 
-
-    }
-    .item_urgent .main_body .description {
-      font-size: 110%;
-      padding-left: 3px;
-    }
-    .item_urgent .main_body .attributes {
-      font-size: 90%;
-      padding-left: 3px;
-    }
-    .item_urgent .main_body .attributes .city {
-      font-weight: bold;
-    }
-   
 
 </style>
 </head>
@@ -125,8 +74,8 @@
 </div>
 
 
-<div class="item_urgent">
-  <img src="https://files2.porsche.com/filestore/image/multimedia/none/jdp-2016-9pa-e2-2nd-v6-editorial-xl/normal/944b5c81-8fc8-11e6-9f1b-0019999cd470;sJ/porsche-normal.jpg" class="image"/>
+<div class="item urgent">
+  <img src="https://files2.porsche.com/filestore/image/multimedia/none/jdp-2016-9pa-e2-2nd-v6-editorial-xl/normal/944b5c81-8fc8-11e6-9f1b-0019999cd470;sJ/porsche-normal.jpg" class="image"  width="100px"/>
   <div class="main_body">
     <div class="title">
       <a href="#">Porsche Cayenne</a>
@@ -144,7 +93,7 @@
 </div>
 
 <div class="item">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Audi_A8_2013_%2811209853445%29.jpg/300px-Audi_A8_2013_%2811209853445%29.jpg" class="image" width="100px"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Audi_A8_2013_(11209853445).jpg/300px-Audi_A8_2013_(11209853445).jpg" class="image" width="100px"/>
   <div class="main_body">
     <div class="title">
       <a href="#">Audi A8</a>
